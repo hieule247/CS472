@@ -107,7 +107,7 @@ header {
   height: 230px;
   padding: 20px 0 70px 0;
 
-  background: #a2916a 50% 0 url(huntington.jpg) no-repeat; /* old IE fallback */
+  background: #a2916a 50% 0 url(img_header_bckgrnd.jpg) no-repeat; /* old IE fallback */
 
   background-attachment: fixed, fixed, fixed, scroll;
   background-image: url(contours.png), url(noise.png), url(gridlines.png), url(img_header_bckgrnd.jpg);
@@ -968,7 +968,7 @@ footer a::before {
     (min-resolution: 1.5dppx) {
 
     header {
-        background-image: url(contours@2x.png), url(noise.png), url(gridlines.png), url(huntington.jpg);
+        background-image: url(contours@2x.png), url(noise.png), url(gridlines.png), url(img_header_bckgrnd.jpg);
         background-size: 50% auto, auto, auto, cover;
     }
 
