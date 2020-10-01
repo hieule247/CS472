@@ -346,7 +346,7 @@ div.participation p, div.benefits p {
   right: 0;
   width: 100%;
   height: 70px;
-  background: rgba(255,255,255,0.2);
+  background: rgb(21 45 220 / 65%);
 }
 .design-archives h3 {
   display: none;
