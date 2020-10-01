@@ -110,7 +110,7 @@ header {
   background: #a2916a 50% 0 url(huntington.jpg) no-repeat; /* old IE fallback */
 
   background-attachment: fixed, fixed, fixed, scroll;
-  background-image: url(contours.png), url(noise.png), url(gridlines.png), url(https://hieule247.github.io/CS472/CSS Zen Garden_ The Beauty of CSS Design_files/img_header_bckgrnd.jpg);
+  background-image: url(contours.png), url(noise.png), url(gridlines.png), url(./CSS Zen Garden_ The Beauty of CSS Design_files/img_header_bckgrnd.jpg);
   background-position: 0 0, 0 0, -5px -25px, 0 50%;
   background-repeat: repeat, repeat, repeat, no-repeat;
   background-size: auto, auto, auto, cover;
