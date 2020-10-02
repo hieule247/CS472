@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HEAD: Using contain metadata: title, style, meta, link, script -->
+<head> 
+<link href= "form.css" type="text/css" rel="stylesheet"/>
+<title>Lab 04 - Workshop Registration</title>
+</head>
+<form method="post">
+<!-- HEADER -->
+<header>
+    <h3>Workshop Registration
+        <label for="actions"></label>
+        <select name="actions" id="actions">
+            <option value="action_01">More Actions</option>
+        </select>
+    </h3>
+</header>
+<!-- BODY -->
+<body>
+    <label for="none" class="underline">Register now while seats are available</label>
+    <div class="grid_body">
+        <div class="item01">
+            <label for="firstname" class="required">First Name</label>
+        </div>
+        <div class="item02"><input class="textbox" type="text" name="firstname" required></div>
+        <div class="item03">
+            <label for="lunch" class="underline">Lunch</label>
+        </div>
+        <div class="item04"></div>
+        <div class="item05">
+            <label for="lastname" class="required">Last Name</label>
+        </div>
+        <div class="item06"><input class="textbox" type="text" name="lastname" required></div>
+        <div class="item07">
+            <label>Meal Preference</label>
+        </div>
+        <div class="item08">
+            <select class="combobox" name="mealpreference" id="mealpreference">
+                <option value="mealpreference_vegetable">Vegetarian</option>
+            </select>
+        </div>
+        <div class="item09">
+            <label for="company" class="required">Company/Institution</label>
+        </div>
+        <div class="item10"><input class="textbox" type="text" name="company" required></div>
+        <div class="item11">
+            <label for="paymentdetail" class="underline">Payment Details</label>
+        </div>
+        <div class="item12"></div>
+        <div class="item13">
+            <label for="address" class="required">Address</label>
+        </div>
+        <div class="item14"><textarea class="textbox" rows="4" name="address" required></textarea></div>
+        <div class="item15">
+            <label>Payment Mode</label>
+        </div>
+        <div class="item16">
+            <input type="checkbox" id="cash" name="cash" value="cash">
+            <label for="cash"> Cash</label><br>
+            <input type="checkbox" id="cheque" name="cheque" value="cheque">
+            <label for="cheque"> Cheque</label><br>
+            <input type="checkbox" id="demanddraft" name="demanddraft" value="demanddraft">
+            <label for="demanddraft"> Demand Draft</label><br>
+        </div>
+        <div class="item17">
+            <label>City</label>
+        </div>
+        <div class="item18"><input class="textbox" type="text" name="city"/></div>
+        <div class="item19">
+            <label>DD/Cheque No.</label>
+        </div>
+        <div class="item20"><input class="textbox" type="text" name="checkno"/></div>
+        <div class="item21">
+            <label>State/Province/Region</label>
+        </div>
+        <div class="item22">
+            <select class="combobox" name="state" id="state">
+                <option value="state_none">-Select-</option>
+                <option value="state_IA">Iowa</option>
+                <option value="state_CA">California</option>
+            </select>
+        </div>
+        <div class="item23">
+            <label>Drawn On (Bank Name)</label>
+        </div>
+        <div class="item24"><input class="textbox" type="text" name="drawon"/></div>
+        <div class="item25">
+            <label>Country</label>
+        </div>
+        <div class="item26">
+            <select class="combobox" name="country" id="country">
+                <option value="country_none">-Select-</option>
+                <option value="country_usa">USA</option>
+                <option value="country_eng">England</option>
+            </select>
+        </div>
+        <div class="item27">
+            <label>Payable at</label>
+        </div>
+        <div class="item28"><input class="textbox" type="text" name="payableat"/></div>
+        <div class="item29">
+            <label for="email" class="required">Email</label>
+        </div>
+        <div class="item30"><input class="textbox" type="text" name="email" required pattern="[a-z0-9._+\-]+@[a-z0-9.\-]+\.[a-z]{2,3}" /></div>
+        <div class="item31"></div>
+        <div class="item32"></div>
+        <div class="item33">
+            <label for="phonenumber" class="required">Phone Number</label>
+        </div>
+        <div class="item34"><input class="textbox" type="text" name="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" /></div>
+        <div class="item35"></div>
+        <div class="item36"></div>       
+    </div>
+</body>
+<!-- FOOTER -->
+<footer>
+    <div class="nav_footer">
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </div>
+</footer>
+</form>
+</html>

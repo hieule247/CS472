@@ -1,0 +1,68 @@
+header {
+    padding: 10px 10px 10px 10px;
+    background-color: #04a38ee8;
+}
+
+footer {
+    padding: 10px 0 10px 10px;
+    background-color: rgba(89, 172, 165, 0.91);
+}
+
+button {
+    width: 70px;
+}
+
+.nav_footer{
+    display: flex;
+    justify-content: center;
+}
+.nav_footer.button{
+    border: 10px;
+    padding: 10px;
+}
+.grid_body{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+/*    grid-gap: 10px;
+    padding:10px;
+*/
+}
+
+.grid_body > div{
+    text-align: left;
+    padding: 10px 0;
+}
+
+label{
+    font-weight: bold;
+}
+/*Label required*/
+label.required{
+    font-weight: bold;
+}
+label.required::after {
+    content: " *";
+    color: red;
+}
+/*Label underline*/
+label.underline{
+    font-weight:normal;
+    text-decoration: underline;
+}
+/*input: Text box*/
+input.textbox {
+    width: 70%;
+}
+/*input: TextArea box*/
+textarea.textbox {    
+    width: 70%;
+}
+/*select: combo box*/
+select.combobox {
+    width: 70%;
+}
+/*button*/
+button {
+    height: 35px;
+}
+
