@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Text Decorator</title>
+		<link href="decoratemytext.css" type="text/css" rel="stylesheet" />
+		<!-- link to your script file here -->
+		<script src="decoratemytext.js"></script>		
+	</head>
+
+	<body>
+		<h1>Text Decorator</h1>
+		
+		<div>
+			<img src="decorated.jpg" alt="very decorated!"/>
+		</div>
+		<!-- textarea -->
+		<fieldset class="group01">
+			<legend>Text</legend>
+			<textarea id="txtInput" class="txtInput" name="txtInput" rows="4" cols="30">
+				Sample Item 1
+				Sample Item 2
+			</textarea>				
+		</fieldset>
+		<!-- button, checkbox -->
+		<fieldset class="group02">
+			<legend>Decorarion</legend>
+			<button onclick="onclickBigger()">Bigger Decorations!</button> <br>
+			<input type="checkbox" id="chkBling" onchange="onBling()">Bling <br>
+			<button id="btnPig">Igpay Atinlay!</button>
+			<button id="btnMalko">Malkovitch!</button>	
+		</fieldset>		
+	</body>
+</html>

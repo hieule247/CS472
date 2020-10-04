@@ -1,0 +1,11 @@
+fieldset.inputtext{
+    border-right: none;
+}
+legend{
+    font-weight: bold;
+}
+textarea.txtInput{
+    /* 
+    text-decoration: underline;
+    */
+}
