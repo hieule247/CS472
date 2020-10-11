@@ -42,8 +42,7 @@ function overEnd() {
 }
 
 function leaveMaze() {
-    if (curStatus == STATUS.NOT_START)
+    if (curStatus == STATUS.NOT_START || curStatus == STATUS.STARTED_FAIL)
         return;        
     alert("Cheating....!");
     overBoundary();
-}
