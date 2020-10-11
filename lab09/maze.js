@@ -46,3 +46,4 @@ function leaveMaze() {
         return;        
     alert("Cheating....!");
     overBoundary();
+}
